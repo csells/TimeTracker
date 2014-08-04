@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>05ffbcef-b791-49fc-9d65-40b2b8135773</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>TimeTracker</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Project.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Repository.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\AboutDetailPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\MainPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\ProjectDetailPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\TimerDetailPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)XamarinHelpers.cs" />
+  </ItemGroup>
+</Project>
