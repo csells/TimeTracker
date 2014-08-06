@@ -97,7 +97,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\slideout.png" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="..\TimeTracker\TimeTracker.projitems" Label="Shared" Condition="Exists('..\TimeTracker\TimeTracker.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />

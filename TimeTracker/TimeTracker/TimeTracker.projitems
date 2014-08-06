@@ -14,6 +14,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\Repository.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\AboutDetailPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\MainPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pages\NewProjectPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\ProjectDetailPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Pages\TimerDetailPage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)XamarinHelpers.cs" />

@@ -5,11 +5,9 @@ using System.Text;
 using Xamarin.Forms;
 
 namespace TimeTracker {
-  class AboutDetailPage : ContentPage {
-    Repository data;
-
-    public AboutDetailPage(Repository data) {
-      this.data = data;
+  class AboutPage : ContentPage {
+    public AboutPage() {
+      this.Title = "About";
       this.Content = new Label { Text = "AboutDetailPage" };
     }
   }
