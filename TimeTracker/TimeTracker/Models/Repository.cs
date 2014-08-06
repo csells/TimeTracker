@@ -8,8 +8,8 @@ namespace TimeTracker {
     public Repository() {
       // TODO: remove dummy data
       Projects = new Project[] {
-        new Project() { Name = "CCH Assessment" },
-        new Project() { Name = "CCH Implementation" },
+        //new Project() { Name = "CCH Assessment" },
+        //new Project() { Name = "CCH Implementation" },
       };
     }
 

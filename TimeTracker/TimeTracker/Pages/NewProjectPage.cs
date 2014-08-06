@@ -3,6 +3,7 @@
 namespace TimeTracker {
   class NewProjectPage : ContentPage {
     public NewProjectPage() {
+      this.Content = new Label { Text = "NewProjectPage" };
       this.Content = new TableView() {
         Intent = TableIntent.Form,
         Root = new TableRoot("New Project") {
