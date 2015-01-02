@@ -22,7 +22,7 @@ namespace TimeTracker {
       if (createNewProjectAttempted) { return; }
 
       createNewProjectAttempted = true;
-      await DisplayAlert("Project Required", "You need to create a project before you can start time tracking. Don't worry, it'll just take a second.", "OK", null);
+      await DisplayAlert("Project Required", "You need to create a project before you can start time tracking. Don't worry, it'll just take a second.", "OK");
       await Navigation.PushModalAsync(new NewProjectPage());
     }
 
